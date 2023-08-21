@@ -1,0 +1,45 @@
+#cont:hover{
+    background-color: #0D6EFD;
+}
+
+#cont{
+    padding: 13px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.offcanvas{
+    background-color: #2B3035;
+    color: white;
+    width: 280px;
+}
+
+#cont i{
+    margin-right: 10px;
+}
+
+#cont2{
+    padding: 20px;
+    margin-right: 10px;
+    float: right;
+    font-weight: bold;
+}
+
+#collapseCont{
+    background-color: transparent;
+    border: transparent !important;
+}
+
+.offcanvas-header{
+    align-content: center;
+}
+
+#cont3{
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#cont3:hover{
+    background-color: #214c8b;
+}

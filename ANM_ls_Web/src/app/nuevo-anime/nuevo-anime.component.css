@@ -1,0 +1,9 @@
+.form-control{
+    margin-bottom: 10px;
+    background-color: rgb(165, 163, 163);
+}
+
+.modal-content{
+    background-color: #44474bd0;
+    color: white;
+}
