@@ -1,9 +1,46 @@
 .form-control{
     margin-bottom: 10px;
-    background-color: rgb(165, 163, 163);
+    background-color: rgb(26 31 51);
+    color: white;
 }
 
 .modal-content{
-    background-color: #44474bd0;
+    background-color: #152740d0;
     color: white;
 }
+.rating:not(:checked) > input {
+    /* position: absolute; */
+    appearance: none;
+  }
+
+  .rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+
+  .rating:not(:checked) > label:before {
+    content: '★';
+  }
+
+  .rating > input:checked + label:hover,
+  .rating > input:checked + label:hover ~ label,
+  .rating > input:checked ~ label:hover,
+  .rating > input:checked ~ label:hover ~ label,
+  .rating > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+
+  .rating > input:checked ~ label {
+    color: #ffa723;
+  }
+
+
+
+
